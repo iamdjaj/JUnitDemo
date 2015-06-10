@@ -26,7 +26,7 @@ public void testHomeWork1() throws Exception
 {   
 System.out.println("test method:" +  name.getMethodName() );
 //assertEquals(name.getMethodName(), "testHomeWork1 ");
-//assertEquals(1, 2);
+//assertEquals(1, 2);  this will fail
 assertEquals(1, 1);
 //assertTrue();
 //assertFalse();
@@ -47,6 +47,7 @@ assertEquals(1, 1);
 //if (music is not playing) 
 // fail("HW needs more debugging!");
 }
+
 @After
     public void tearDown() throws Exception{
     //closeBrowser;
